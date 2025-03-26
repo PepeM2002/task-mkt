@@ -1,12 +1,11 @@
 /** @format */
-import React from "react";
-import login from "./components/login";
+
+import Login from "./components/login";
 function App() {
   return (
     <>
       <div>
-        <h1>App</h1>
-        {login}
+        <Login />
       </div>
     </>
   );
