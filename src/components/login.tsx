@@ -9,7 +9,7 @@ function login() {
         <form className="flex flex-col gap-4 w-full max-w-sm border-transparent border-2 p-2 rounded-xl shadow-xl shadow-emerald-500">
           <div>
             <label className="block font-medium mb-1" htmlFor="email">
-              Correo Electrónico
+              Correo Electrónicos
             </label>
             <input
               className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
