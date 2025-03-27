@@ -3,10 +3,10 @@
 function login() {
   return (
     <>
-      <div className="flex flex-col items-center mt-14 p-4">
-        <img className=" w-52" src="/logo-mkt.png" alt="" />
+      <div className="flex flex-col items-center mt-14 p-4 ">
+        <img className="w-52" src="/logo-mkt.png" alt="" />
 
-        <form className="flex flex-col gap-4 w-full max-w-sm">
+        <form className="flex flex-col gap-4 w-full max-w-sm border-transparent border-2 p-2 rounded-xl shadow-xl shadow-emerald-500">
           <div>
             <label className="block font-medium mb-1" htmlFor="email">
               Correo Electrónico
@@ -34,13 +34,13 @@ function login() {
             />
           </div>
           <button
-            className="w-full bg-primary cursor-pointer bg-blue-700 text-white border-amber-50 border-2 p-2 rounded-md hover:bg-blue-500 transition"
+            className="w-full bg-primary cursor-pointer bg-blue-700 text-white border-transparent border-2 p-2 rounded-md hover:bg-blue-500 transition"
             type="submit"
           >
             Iniciar Sesión
           </button>
           <button
-            className="w-50 bg-primary cursor-pointer bg-blue-700 text-white border-amber-50 border-2 p-2 rounded-md hover:bg-blue-500 transition"
+            className="w-50 bg-primary cursor-pointer bg-blue-700 text-white border-transparent border-2 p-2 rounded-md hover:bg-blue-500 transition"
             type="submit"
           >
             Registrate

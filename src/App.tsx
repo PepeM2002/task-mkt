@@ -1,6 +1,6 @@
 /** @format */
 
-import Login from "./components/login";
+import Login from "./components/Login";
 function App() {
   return (
     <>
